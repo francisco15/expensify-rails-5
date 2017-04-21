@@ -38,6 +38,9 @@ group :development, :test do
   gem 'byebug'
   gem 'minitest-reporters'
   gem 'rails-controller-testing'
+  gem 'minitest-spec-rails'
+  gem 'capybara_minitest_spec' # for capybara integration and spec 
+  gem 'capybara-webkit', '~> 1.11', '>= 1.11.1' # for headless javascript tests
 end
 
 group :development do
